@@ -1,0 +1,70 @@
+# -----------------------------
+# Python / Jupyter
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.python-version
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+.env
+.venv
+env/
+venv/
+ENV/
+
+# -----------------------------
+# OS / Editor noise
+# -----------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+.vscode/
+.idea/
+
+# -----------------------------
+# Data & large artifacts (DO NOT COMMIT)
+# -----------------------------
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.jsonl
+*.parquet
+*.h5
+*.hdf5
+
+# -----------------------------
+# Model artifacts / logs
+# -----------------------------
+checkpoints/
+models/
+weights/
+*.pt
+*.pth
+*.ckpt
+logs/
+runs/
+wandb/
+
+# -----------------------------
+# Generated figures (optional)
+# -----------------------------
+# Keep paper figures tracked, ignore everything else if generated
+results/tmp/
+results/cache/
+
+# -----------------------------
+# Archives
+# -----------------------------
+*.zip
+*.tar
+*.tar.gz
+*.7z
