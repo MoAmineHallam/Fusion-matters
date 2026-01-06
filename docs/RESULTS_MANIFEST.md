@@ -22,7 +22,7 @@ token embeddings and positional encodings.
 ---
 
 ## Figure 1b — Concat + Projection Fusion
-**File:** [`fig1_b_concat_projection.png`](../results/Figures/fig1_b_concat_projection.png)  
+**File:** [`fig1_b_concat_projection.png`](../results/Figures/fig1_b__concat_projection.png)  
 **Paper:** Figure 1b  
 **Description:** Concatenation of token and positional embeddings followed by
 linear projection to the model dimension.
@@ -30,7 +30,7 @@ linear projection to the model dimension.
 ---
 
 ## Figure 2 — Gate-CNN Fusion
-**File:** [`fig2_gate_cnn.png`](../results/Figures/fig2_gate_cnn.png)  
+**File:** [`fig2_gate_cnn.png`](../results/Figures/fig2_gating_cnn.png)  
 **Paper:** Figure 2  
 **Description:** Local convolutional positional gating mechanism operating
 solely on positional encodings.
@@ -60,7 +60,7 @@ mechanisms on ArXiv.
 ---
 
 ## Figure 5 — ArXiv Paired-Seed Deltas (Gate-Scalar vs Gate-CNN)
-**File:** [`fig5_arxiv_paired_deltas_gate_scalar_gateCNN.png`](../results/Figures/fig5_arxiv_paired_deltas_gate_scalar_gateCNN.png)  
+**File:** [`fig5_arxiv_paired_deltas_gate_scalar_gateCNN.png`](../results/Figures/fig5_arxiv_paired_deltas_gateScalar_gateCNN.png)  
 **Paper:** Figure 5  
 **Description:** Paired per-seed accuracy deltas on the ArXiv dataset comparing
 Gate-Scalar and Gate-CNN relative to Add.
@@ -68,7 +68,7 @@ Gate-Scalar and Gate-CNN relative to Add.
 ---
 
 ## Figure 6 — AG News Paired-Seed Deltas
-**File:** [`fig6_paired_deltas_agnews.png`](../results/Figures/fig6_paired_deltas_agnews.png)  
+**File:** [`fig6_paired_deltas_agnews.png`](../results/Figures/fig6_paired_deltas_AgNews.png)  
 **Paper:** Figure 6  
 **Description:** Paired per-seed accuracy deltas on the AG News dataset,
 illustrating limited and inconsistent fusion effects on short sequences.
